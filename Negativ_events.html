@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Negative Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #d32f2f;
+            color: white;
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .event-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .event-table th, .event-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .event-table th {
+            background-color: #f44336;
+            color: white;
+        }
+        .note {
+            background-color: #ffeb3b;
+            padding: 10px;
+            border-left: 5px solid #ff9800;
+            font-style: italic;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Negative Events</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Documented Deep Discharges</h2>
+        <table class="event-table">
+            <tr>
+                <th>Date</th>
+                <th>Voltage</th>
+                <th>Duration</th>
+                <th>Remarks</th>
+            </tr>
+            <tr>
+                <td>2024-01-15</td>
+                <td>4.6V</td>
+                <td>6 hours</td>
+                <td>Battery reached critical low voltage</td>
+            </tr>
+            <tr>
+                <td>2024-03-10</td>
+                <td>4.4V</td>
+                <td>8 hours</td>
+                <td>Potential capacity degradation</td>
+            </tr>
+            <tr>
+                <td>2024-05-22</td>
+                <td>4.0V</td>
+                <td>10 hours</td>
+                <td>Risk of permanent damage</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Documented Overcharge Events</h2>
+        <table class="event-table">
+            <tr>
+                <th>Date</th>
+                <th>Voltage</th>
+                <th>Duration</th>
+                <th>Remarks</th>
+            </tr>
+            <tr>
+                <td>2024-02-18</td>
+                <td>7.4V</td>
+                <td>2 hours</td>
+                <td>Increased temperature detected</td>
+            </tr>
+            <tr>
+                <td>2024-06-05</td>
+                <td>7.3V</td>
+                <td>3.5 hours</td>
+                <td>Safety cutoff activated</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="note">
+        <p><strong>Note:</strong> All events listed above are based on system logs and monitoring data. Repeated deep discharges or overcharges can significantly reduce battery lifespan and may lead to safety risks.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Battery Monitoring System. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

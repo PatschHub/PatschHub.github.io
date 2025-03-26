@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SheZhen Cells Co.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .info {
+            text-align: left;
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+            padding: 10px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to SheZhen Cells Co.</h1>
+</header>
+
+<div class="container">
+    <h2>Company Information</h2>
+    <div class="info">
+        <p><strong>Manufacturer:</strong> SheZhen Cells Co.</p>
+        <p><strong>Nation:</strong> China</p>
+        <p><strong>Address:</strong> 518101 Bao'an District / ShenZhen</p>
+        <p><strong>Street:</strong> ShenZhen Street 31</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 SheZhen Cells Co. - All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
